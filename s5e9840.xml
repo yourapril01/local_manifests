@@ -11,18 +11,22 @@
     <remote name="daubfy"
             fetch="https://github.com/Daubfy"
             revision="lineage-23.2" />
+    
+    <remote name="april01"
+            fetch="https://github.com/yourapril01"
+            revision="lineage-23.2" />
 
     <!-- device/ -->
         <!-- samsung/ -->
-        <project path="device/samsung/universal2100-common" name="android_device_samsung_universal2100-common" remote="exy" />
-        <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="daubfy" />
+        <project path="device/samsung/universal2100-common" name="android_device_samsung_universal2100-common" remote="april01" />
+        <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="april01" />
 
         <!-- samsung_slsi/ -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="exy" />
 
     <!-- hardware/ -->
         <!-- samsung/ -->
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="exy" />
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="april01" />
 
         <!-- samsung_slsi/ -->
         <project path="hardware/samsung_slsi/fm" name="android_hardware_samsung_slsi_fm" remote="los" />
