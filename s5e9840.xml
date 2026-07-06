@@ -42,7 +42,7 @@
 
     <!-- kernel/ -->
         <!-- samsung/ -->
-        <project path="kernel/samsung/universal2100" name="android_kernel_samsung_universal2100" remote="daubfy" />
+        <project path="kernel/samsung/universal2100" name="android_kernel_samsung_universal2100" remote="exy" />
 
     <!-- vendor/ -->
         <!-- samsung/ -->
