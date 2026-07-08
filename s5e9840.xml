@@ -23,6 +23,7 @@
     <!-- hardware/ -->
         <!-- samsung/ -->
         <project path="hardware/samsung" name="android_hardware_samsung" remote="exy" />
+        <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="exy" />
 
         <!-- samsung_slsi/ -->
         <project path="hardware/samsung_slsi/fm" name="android_hardware_samsung_slsi_fm" remote="los" />
